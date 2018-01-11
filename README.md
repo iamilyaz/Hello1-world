@@ -1,5 +1,3 @@
-# Hello1-world
-My first Repository
 <!DOCTYPE html>
 <html>
 <head>
