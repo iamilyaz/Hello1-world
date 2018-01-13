@@ -1,83 +1,120 @@
+<!DOCTYPE>
 <html>
 <head>
-  <link href="/normalize.css" rel="stylesheet">
-  <style>
-    header {
-      text-align: center;
-      background: url('http://dash.ga.co/assets/jeff-bg.png');
-      background-size: cover;
-      color: white;
-    }
-    a {
-      color: white;
-    }
-    h1 {
-      font-size: 70px;
-    }
-    img {
-      margin: 40px 0px 0px 0px;
-      border: 7px solid white;
-      border-radius: 700px;
-    }
+    <title>
+    Welcome to my website
+    </title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Caveat|VT323|Source+Sans+Pro');
+        body {
+            font-family: "Georgia";
+            background-image: url(BG1.jpg);
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+        }
+        #aboutme {
+            font-size: 40px;
+            font-weight: normal;
+            font-family: Caveat;
+            color: white;
+            margin: 100px 0px 0px 0px ;
+            padding: 0;
+        }
+        a {
+            color: white;
+        }
     ul {
-      padding: 10px;
-      background: black;
-    }
-        li {
-      display: inline;
-      padding: 0px 10px 0px 10px;
-    }
-    article {
-      max-width: 500px;
-      padding: 20px;
-      margin: 0 auto;
-    }
-    @media (max-width: 500px) {
-      body {
-        background: red;
-      }
-      h1 {
-        font-size: 36px;
-    }
-    li {
-      display: block;
-      padding: 5px;
-    }
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <img src="me.jpg" height="230px" width="230px">
-    <h1>Ilyas Blog</h1>
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+        #mypic {
+            display: block;
+            margin: auto;
+            border: 7px solid white;
+            border-radius: 50%;
+        }
+        p {
+            font-family: Caveat;
+            font-size: 40px;
+        }
+        .design {
+            display: block;
+            margin: auto;
+            
+        }
+        h6 {
+            font-family: georgia;
+            font-weight: 100;
+            text-align: justify;
+            margin: auto;
+            padding: 20px 0 200px 0;
+            width: 40%;
+            font-size: 20px;
+            color: white;
+        }
+        #contactme {
+            padding-top: 100px;
+            padding-bottom: 1000px;
+        }
+        #contact {
+            margin:10px;
+        }
+        h5 {
+            font-family: georgia;
+            font-weight: 100;
+            font-size: 30px;
+            color: white;
+        }
+    </style>
+    </head>
+    <body>
     <ul>
-      <li><a href="#jump">About Me</a></li>
-      <li><a href="#">Works</a></li>
-      <li><a href="#">Contact</a></li>
+        <li><a href="#aboutme"a>About me</a></li>
+        <li><a href="#design">My Designs</a></li>
+        <li><a href="#contactme">Contact</a></li> <br>
     </ul>
-  </header>
-  <article>
-  <h2>VHS umami pop-up trust fund</h2>
-  <p>Marfa church-key kitsch bicycle rights, 8-bit mixtape cardigan gentrify Echo Park. Street art swag brunch, next level roof party Schlitz hella organic keffiyeh selfies. You probably haven't heard of them polaroid hashtag +1, meggings biodiesel Portland High Life cray tumblr retro.</p>
-  </article>
-  <article>
-    <h2>Sartorial synth Echo Park, roof party</h2>
-  <p>chambray you probably haven't heard of them pour-over viral selvage umami skateboard VHS post-ironic selfies. Wes Anderson gentrify fanny pack twee, bicycle rights bitters blog keffiyeh plaid flannel. Tonx irony cliche sustainable mlkshk bitters. Four loko leggings chambray Vice.</p>
-  </article>
-  <article><h2 id="jump">Forage food truck keytar master cleanse</h2>
-  <p>ethical thundercats sustainable locavore quinoa Neutra. Aesthetic tacky sweater single-origin coffee, bicycle rights organic lo-fi street art american apparel ennui four loko ethnic Brooklyn small batch. Forage YOLO polaroid</p>
-  </article>
-    < table border=1>
-<tr>
-<td rowspan=2> ab </td>
-<td colspan=2> cd </td>
-</tr>
-<tr>
-<td> ef </td>
-<td rowspan=2> gh </td>
-</tr>
-<tr> <td colspan=2> ik </td>
-</tr>
-</table>
-</body>
+        <div id="aboutme">
+            <H2>Hi I'm Ilyas</H2>
+        </div>
+        <img id="mypic" src="me.jpg" height="230px" width="230px">
+        <h6>I’m a PowerPoint Designer with 2 years of experience designing high-end presentation for clients around the world . I have experience in both operation and designing industries, but have a passion for education and learning new skills. I prefer full-time positions, but am willing to commute for the right opportunity.</h6>
+        <div id="design">
+            <img src="E:\PROJECT\invitation.jpg" height="auto" width="300px">
+            <img src="E:\PROJECT\poster design mockup.png" height="auto" width="300px">
+            <img src="E:\PROJECT\Magazine Cover Mockup.png" height="auto" width="300px"><br>
+            <img src="E:\PROJECT\Swift Banner Mockup.png" height="auto" width="350px">
+            <img src="E:\PROJECT\Swift Banner Mockup2.png" height="auto" width="350px">
+            <img src="E:\PROJECT\Swift Banner Mockup1.1.png" height="auto" width="372px">
+            <img src="E:\PROJECT\Standee2.png" height="auto" width="350px">
+        </div>
+        <div id="contactme">
+            <h5>AROUND THE WEB</h5>
+            <a href="https://www.facebook.com/iamilyaz" target="_blank"><img id="contact" src="facebook.png" height="45px" width="45px"></a>
+            <a href="https://www.twitter.com/iamilyaz" target="_blank"><img id="contact" src="twitter.png" height="45px" width="45px"></a>
+            <a href="https://www.linkedin.com/in/iamilyaz" target="_blank"><img id="contact" src="linkedin.png" height="50px" width="50px"></a>
+        </div>
+    </body>
 </html>
